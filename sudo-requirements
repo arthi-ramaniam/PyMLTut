@@ -1,0 +1,5 @@
+python-pip
+virtualenv
+libblas-dev 
+liblapack-dev
+gfortran
