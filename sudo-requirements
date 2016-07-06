@@ -1,5 +1,5 @@
 python-pip
 virtualenv
-libblas-dev 
-liblapack-dev
-gfortran
+libblas-dev (for numpy)
+liblapack-dev (for numpy)
+gfortran (for scipy)
