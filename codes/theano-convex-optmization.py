@@ -26,7 +26,7 @@ grad   = theano.tensor.grad(err, [x])
 alpha  = 0.5
 
 # gradient update
-hat_x  = x - (alpha * gradients[0])
+hat_x  = x - (alpha * grad[0])
 
 updates= [(x, hat_x)]
 
