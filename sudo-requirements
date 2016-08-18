@@ -1,8 +1,19 @@
-git
-curl
-python-pip
+sudo apt-get install \
+python-numpy \
+python-scipy \
+python-dev \
+python-pip \
+python-nose \
+g++ \
+libopenblas-dev \
+git \
+curl \
+
 virtualenv
 libblas-dev (for numpy)
 liblapack-dev (for numpy)
 gfortran (for scipy)
 libhdf5-*-7 libhdf5-*-dev hdf5-tools hdfview (for hdf5)
+
+
+sudo pip install Theano
