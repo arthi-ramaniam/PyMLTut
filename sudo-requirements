@@ -5,3 +5,4 @@ virtualenv
 libblas-dev (for numpy)
 liblapack-dev (for numpy)
 gfortran (for scipy)
+libhdf5-*-7 libhdf5-*-dev hdf5-tools hdfview (for hdf5)
