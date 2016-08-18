@@ -9,7 +9,7 @@ for line in f:
         data = line.split()
         data = [float(d) for d in data[:8]]
         D.append(data)
-	except:
+    except:
         pass
 D = numpy.asarray(D,dtype='float')
 with h5py.File('auto-mpg.hdf5', 'w') as F:
